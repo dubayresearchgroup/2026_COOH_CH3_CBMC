@@ -6,4 +6,7 @@ Analysis: Contains Python scripts that reproduce the figures presented in the ma
 
 Datafiles: Contains subdirectories that contain the trajectory for each trial. The datafiles are xyz trajectory files containing the final 20 snapshots obtained from the CBMC simulations (to keep the file size down) for the four monolayers studied in addition to the final 50 snapshots for each of the four surface densities of hexanethiol homoligand monolayers. These trajectory files can be visualized via Ovito or your visualization software of choice.
 
-Figures: Contains all of the figures containing data obtained from CBMC trials. 
+Figures: Contains all of the figures containing data obtained from CBMC trials.
+
+More information on the CBMC model can be found at https://github.com/zlafa24/np-mc.git.
+ 
