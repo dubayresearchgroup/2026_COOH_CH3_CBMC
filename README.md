@@ -1,4 +1,4 @@
-This repository contains analysis scripts, written in Python, that were used to generate the figures presented in the manuscript "Prediction and Determination of Monolayer Structure in Binary Alkanethiol/Carboxylic Acid Ligand Mixtures on Gold Nanoparticles" in addition to the datafiles.
+This repository contains analysis scripts that were used to generate the figures presented in the manuscript "Prediction and Determination of Monolayer Structure in Binary Alkanethiol/Carboxylic Acid Ligand Mixtures on Gold Nanoparticles" in addition to the datafiles.
 
 Directories
 
