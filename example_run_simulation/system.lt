@@ -1,0 +1,26 @@
+import "gold.lt"
+import "ht.lt"
+import "mua.lt"
+
+golds = new GOLD[2456]
+hts = new HT[256]
+muas = new MUA[256]
+
+
+write_once("In Init"){
+    units real
+    atom_style full
+    pair_style hybrid/overlay lj/cut/coul/debye 0.2 12.0 18.0 morse 10.0
+    bond_style hybrid harmonic
+    angle_style hybrid harmonic
+    dihedral_style hybrid opls
+    improper_style hybrid cvff
+    special_bonds amber
+    dielectric 24.35
+}    
+write_once("Data Boundary"){
+    -60.0 60.0 xlo xhi
+    -60.0 60.0 ylo yhi
+    -60.0 60.0 zlo zhi
+}
+
