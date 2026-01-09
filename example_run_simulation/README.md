@@ -1,0 +1,4 @@
+This directory contains example input files for an initially random hexanethiol (HT) / 11-mercaptoundecanoic acid (MUA) trial .
+
+**Note**: Because the COOH moiety is branched, probability distribution functions will need to be constructed prior to performing the CBMC model and these are stored in .pkl files. To avoid uploading .pkl files to the repository, the read_pdf keyword passed to the simulation class init method has been set to False. When read_pdf=False and a branch is detected, the probability distribution functions will be automatically constructed which may take considerable time. Once, the files pdf_X_X_X_weighted.pkl and weights_X_X_X.pkl (where the Xs correspond to the atom types participating in the branch) have been generated, the read_pdf keyword can be set to False and the CBMC model will immediately run.
+
