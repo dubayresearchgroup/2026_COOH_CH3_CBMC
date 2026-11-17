@@ -7,3 +7,5 @@ dihedral_style hybrid opls
 improper_style hybrid cvff
 special_bonds amber
 dielectric 24.35
+boundary f f f
+pair_modify shift yes
