@@ -1,12 +1,16 @@
-This repository contains analysis scripts that were used to generate the figures presented in the manuscript "Prediction and Determination of Monolayer Structure in Binary Alkanethiol/Carboxylic Acid Ligand Mixtures on Gold Nanoparticles" in addition to the datafiles.
+This repository contains analysis scripts that were used to generate the figures presented in the manuscript "Prediction and Determination of Monolayer Structure in Binary Ligand Mixtures on Gold Nanoparticles" in addition to the data files. The figures present in the main text and SI are also included here.
 
 Directories
 
-Analysis: Contains Python scripts that reproduce the figures presented in the manuscript and are named accordingly. This repo can be cloned and each of the analysis scripts can be run directly from the analysis folder to reproduce the figures included in the Figures folder.
+Simulation_data:
+    -> analysis: Contains Python scripts that reproduce the figures presented in the manuscript and are named accordingly.
+    -> datafiles: Contains text files produced during the analysis and some coordinate files required for the analysis scripts.
+    -> figures: Contains 400dpi png images of figures presented in the main text and supplementary information related to the simulation results
+Experiment_data:
+    -> Figures: Contains jpg and png images presented in the main text and supplementary information related to the experimental results
 
-Datafiles: Contains subdirectories that contain the trajectory for each trial. The datafiles are xyz trajectory files containing the final 20 snapshots obtained from the CBMC simulations (to keep the file size down) for the four monolayers studied in addition to the final 50 snapshots for each of the four surface densities of hexanethiol homoligand monolayers. These trajectory files can be visualized via Ovito or your visualization software of choice.
-
-Figures: Contains all of the figures containing data obtained from CBMC trials.
+example_run_simulation:
+    This directory contains the files used to run a CBMC simulation of hexanethiol and mercaptoundecanoic acid on a icosahedral gold nanoparticle (mid-diameter of 4.2 nm) starting from a randomly mixed monolayer
 
 More information on the CBMC model can be found at https://github.com/zlafa24/np-mc.git.
  
